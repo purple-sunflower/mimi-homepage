@@ -1,0 +1,34 @@
+.news-flex-box {
+    flex: 0 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.news-box {
+    flex: 1;
+}
+
+.update-box {
+    flex: 1;
+}
+
+.miniroom {
+    flex: 1;
+}
+
+.box-title {
+    font-family: "KOTRA_BOLD-Bold";
+    color: slategray;
+    background-color: beige;
+}
+
+.box-title-photo > img{
+    margin: 6px;
+    width: 100%;
+    height: auto;
+}
+
+.box-title-text font-neo {
+    font-family: "NeoDunggeunmo";
+}

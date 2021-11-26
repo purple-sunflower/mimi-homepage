@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap');
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.name {
+    color: blueviolet;
+    border-bottom: black solid 0.5px; /* border은 테두리 만듦. */
+    padding-bottom: 10px;
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+}
+
+.subname {
+    color:darkgreen;
+    border-bottom: black solid 0.5px; /* border은 테두리 만듦. */
+    padding-bottom: 10px;
+    font-family: 'Jua', sans-serif;
+    font-size: 33px;
+}
+
+#sub-title {
+    color: gray;
+    font-family: 'KOTRAHOPE';
+    font-size: 30px;
+}
+
+.hyperlink {
+    color:cornflowerblue;
+}
+
+p {
+    padding-bottom: 5px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+}

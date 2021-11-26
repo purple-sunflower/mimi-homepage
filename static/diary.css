@@ -1,0 +1,102 @@
+.content-box{
+    position: relative;
+}
+
+.date-box {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+
+    border: 1px solid grey;
+
+    display: flex;
+    align-items: center;
+}
+
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: slateblue;
+    font-weight: 700;
+}
+
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.date {
+    flex: 0 0 1.5rem;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.diary-box{
+    border: 1px solid grey;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.diary-date{
+    font-size: 0.8rem;
+    color: darkgreen;
+    margin-bottom: 1rem;
+}
+
+.diary-text {
+    text-align: center;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.diary-button {
+    margin-top: 1rem;
+    background: white;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+
+    transition: 800ms ease all;
+    border: none;
+}
+
+.diary-button:hover{
+    background: salmon;
+    color: ivory;
+}
+
+.fas {
+    margin-right: 0.7rem;
+    font-size: 0.7rem;
+}
+
+#secret-box {
+    display: none;
+}

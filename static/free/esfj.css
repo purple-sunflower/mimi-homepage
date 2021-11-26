@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+html {
+    font-size: 45px;
+    background-color: ivory;
+}
+
+#heading {
+    font-family: 'Gaegu', cursive;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Hi Melody', cursive; 
+    font-size: 0.4em;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom:plum solid 2px;
+}
+
+.esfj {
+    color: coral;
+}
+
+#list {
+    font-family: 'Hi Melody', cursive; 
+    font-size: 0.4rem;
+}
+
+a{
+    color: gray;
+}
